@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/pokewordle_solver/static/js/main.78c1c281.js",
-    "static/js/787.d58a9260.chunk.js": "/pokewordle_solver/static/js/787.d58a9260.chunk.js",
-    "index.html": "/pokewordle_solver/index.html",
-    "main.78c1c281.js.map": "/pokewordle_solver/static/js/main.78c1c281.js.map",
-    "787.d58a9260.chunk.js.map": "/pokewordle_solver/static/js/787.d58a9260.chunk.js.map"
+    "main.js": "/pokewordle_solver_front/static/js/main.e46768e1.js",
+    "static/js/787.d58a9260.chunk.js": "/pokewordle_solver_front/static/js/787.d58a9260.chunk.js",
+    "index.html": "/pokewordle_solver_front/index.html",
+    "main.e46768e1.js.map": "/pokewordle_solver_front/static/js/main.e46768e1.js.map",
+    "787.d58a9260.chunk.js.map": "/pokewordle_solver_front/static/js/787.d58a9260.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.78c1c281.js"
+    "static/js/main.e46768e1.js"
   ]
 }
