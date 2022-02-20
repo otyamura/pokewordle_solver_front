@@ -50,8 +50,8 @@ function API() {
 			;
 	}
 	const [any, forceUpdate] = useReducer(num => num + 1, 0);
-	function handleChange(){
-			forceUpdate();
+	function handleChange() {
+		forceUpdate();
 	}
 	const changeName = (e) => {
 		if (inputRef.current) {
@@ -82,14 +82,13 @@ function API() {
 	const commonStyles = {
 		bgcolor: 'background.paper',
 		borderColor: 'text.primary',
-		m: 1,
 		width: '5rem',
 		height: '5rem',
 	};
 	return (
 		<>
-			<Stack direction="row" justifyContent="center">
-			{split.map((v, i) => (
+			<Stack direction="row" justifyContent="center" spacing={1} sx={{ ml: 1, mr: 1 }}>
+				{split.map((v, i) => (
 					<Box sx={{ ...commonStyles, borderRadius: 3, bgcolor: bgcolors[states[i]] }} key={v} onClick={() => changeColor(i)}>
 						<Typography variant="h2" align="center" color="#ffffff" >
 							{v}
